@@ -1,4 +1,4 @@
-# UsefulLinuxCommands
+# Useful Linux Commands
 If you don't know about "foo", type:
 
 10 "info foo"
