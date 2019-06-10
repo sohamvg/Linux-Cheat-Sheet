@@ -16,6 +16,6 @@
 - If you don't know about "foo", type:
   ```info foo``` or ```man foo```
 - To search inside a file named 'foo', use ```grep "text to be searched" foo```
-- Use ```!!``` to repeat the last command entered.
+- Use ```!!``` to repeat the last command entered. e.g. ```sudo !!``` is same as ```sudo {previous command}```
 - To save the output of a command 'cmd' in terminal in a file named 'foo', use ```cmd > foo```
 - To know your username, type ```whoami```
