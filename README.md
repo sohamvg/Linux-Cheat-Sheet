@@ -16,7 +16,9 @@
   ```locate -i foo``` or ```whereis foo```
 - If you don't know about "foo", type:
   ```info foo``` or ```man foo```
+- To find files in a directory, use ```find {directory} -name {name}```.
+  Use ```-type f``` for files and ```-type d``` for directories
 - To search inside a file named 'foo', use ```grep "text to be searched" foo```
 - Use ```!!``` to repeat the last command entered. e.g. ```sudo !!``` is same as ```sudo {previous command}```
 - To save the output of a command 'cmd' in terminal in a file named 'foo', use ```cmd > foo```
-- To know your username, type ```whoami```
+- To know your username :), type ```whoami```
