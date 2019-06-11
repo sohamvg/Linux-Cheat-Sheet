@@ -7,6 +7,7 @@
 - To create a directory named 'foo', type ```mkdir foo```
 - To remove a file named 'foo', type ```rm foo```
 - To remove a directory named 'foo', type ```rmdir foo```
+- Print working directory, use ```pwd```
 - To move a file to a directory, type ```mv filename directory_path```
 - Just about any program, when you type it's name and ```-h``` or ```--help``` will print out a usage message.
 - if you want to view what's in "foo":
