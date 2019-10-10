@@ -12,6 +12,7 @@
 - Just about any program, when you type it's name and ```-h``` or ```--help``` will print out a usage message.
 - if you want to view what's in "foo":
   ```less foo``` or ```emacs foo```
+- To open a file or URL in the user's preferred application, use ```xdg-open { file | URL }```
 - if you can't find "foo", type:
   ```locate -i foo``` or ```whereis foo```
 - If you don't know about "foo", type:
