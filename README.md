@@ -12,9 +12,9 @@
 - Just about any program, when you type it's name and ```-h``` or ```--help``` will print out a usage message.
 - if you want to view what's in "foo":
   ```less foo``` or ```emacs foo```
-- To open a file or URL in the user's preferred application, use ```xdg-open { file | URL }```
-- if you can't find "foo", type:
-  ```locate -i foo``` or ```whereis foo```
+- To open a file or URL in the user's preferred application, use ```xdg-open { file | URL }```. Basically works like a double-click!!
+- To find a file or directory named "foo", type:
+  ```locate foo``` (for case insensitivity use `locate -i foo`) or ```whereis foo```
 - If you don't know about "foo", type:
   ```info foo``` or ```man foo```
 - To find files in a directory, use ```find {directory} -name {name}```.
@@ -24,3 +24,5 @@
 - Use ```!!``` to repeat the last command entered. e.g. ```sudo !!``` is same as ```sudo {previous command}```
 - To save the output of a command 'cmd' in terminal in a file named 'foo', use ```cmd > foo```
 - To know your username :), type ```whoami```
+
+#### If you know any other interesting command or some linux tricks, please create a pull request!
