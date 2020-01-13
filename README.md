@@ -11,7 +11,7 @@
 - To move a file to a directory, type ```mv filename directory_path```
 - Just about any program, when you type it's name and ```-h``` or ```--help``` will print out a usage message.
 - if you want to view what's in "foo":
-  ```less foo``` or ```emacs foo```
+  `less foo` or `cat foo`.
 - To open a file or URL in the user's preferred application, use ```xdg-open { file | URL }```. Basically works like a double-click!!
 - To find a file or directory named "foo", type:
   ```locate foo``` (for case insensitivity use `locate -i foo`) or ```whereis foo```
